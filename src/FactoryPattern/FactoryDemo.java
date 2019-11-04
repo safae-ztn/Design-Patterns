@@ -7,7 +7,7 @@ public class FactoryDemo {
 		FactoryShape factoryShape = new FactoryShape();
 		
 		//obj of cercle
-		Shape cercle = factoryShape.getTypeShape("CERCLE");;
+		Shape cercle = factoryShape.getTypeShape("CERCLE");
 		cercle.draw();
 		
 		//obj of rectangle 
